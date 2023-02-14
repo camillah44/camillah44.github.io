@@ -1,0 +1,56 @@
+.parent-1, .parent-2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.block-1, .block-2, .block-3, .block-4 {
+display:inline-block;
+width: 49%;
+vertical-align: top;
+}
+
+.body {
+  background-color: rgb(245, 236, 219);
+  color:brown;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#response-title {
+  color: rgb(218, 176, 183);
+}
+
+#john-berger-title {
+  color:rgb(177, 177, 212);
+}
+
+.parent-1 {
+  background-color: rgb(253, 218, 224);
+}
+
+.parent-2 {
+  background-color: lavender;
+}
+
+.ep-details {
+  line-height: 4;
+}
+
+img {
+  width: 300px;
+}
+
+#awkward-break {
+  margin-bottom: 500px;
+}
+
+.horses {
+  margin-bottom: 300px;
+}
