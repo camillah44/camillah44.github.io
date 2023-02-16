@@ -1,0 +1,60 @@
+#header-1 {
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+#ep-1 {
+ position: relative;
+ text-align: left;
+}
+
+#ep-2 {
+  position: relative;
+  left: 25%;
+}
+
+#ep-3 {
+  position: relative;
+  left: 75%;
+}
+
+#ep-4 {
+  position: relative;
+  text-align: right;
+}
+
+#paragraph-1, #paragraph-2, #paragraph-3, #paragraph-4 {
+  height: 50px;
+  width: 400px;
+}
+#paragraph-1 {
+  background-color: rgba(82, 178, 178, 1);
+  position: relative;
+  padding-right: 305px;
+
+}
+
+#paragraph-2 {
+  background-color: rgba(82, 178, 178, .4);
+  transform: rotate(90deg);
+  position: relative;
+  left: 175px;
+  top: 130px;
+}
+
+#paragraph-3 {
+  background-color: rgba(138, 82, 178, 0.6);
+  position: relative;
+  left: 350px;
+  top: 280px;
+}
+
+#paragraph-4 {
+  background-color: rgba(138, 82, 178, 0.8);
+  transform: rotate(90deg);
+  position: relative;
+  left: 425px;
+  top: 130px;
+  padding-right: 210px;
+}
