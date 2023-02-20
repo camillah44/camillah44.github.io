@@ -1,56 +1,94 @@
-#header-1 {
-  text-align: center;
-  position: sticky;
+body {
+  height: 1000px;
+  padding-top: 310px;
+}
+
+.header {
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  border: dotted 2px;
+  z-index: 100;
+  background-color: lavenderblush;
 }
 
-#ep-1 {
- position: relative;
- text-align: left;
+.header-title {
+  text-align: center;
 }
 
-#ep-2 {
-  position: relative;
-  left: 25%;
+.header-episode-01-container {
+ position:relative;
+ top: 0;
 }
 
-#ep-3 {
-  position: relative;
-  left: 75%;
+.header-episode-02-container {
+  position:relative;
+  top: 5px;
+  text-align: center;
 }
 
-#ep-4 {
-  position: relative;
+.header-episode-03-container {
+  position:relative;
+  text-align: center;
+  top: 10px;
+} 
+
+.header-episode-04-container {
   text-align: right;
+  position:relative;
+  top: 15px;
 }
 
-#paragraph-1, #paragraph-2, #paragraph-3, #paragraph-4 {
+.header-episode-01 {
+  display:inline-block;
+  background-color:rgba(82, 178, 178, 0.9);
+}
+
+.header-episode-02 {
+  display:inline-block;
+  background-color:rgba(82, 178, 178, 0.3);
+}
+
+.header-episode-03 {
+  display:inline-block;
+  background-color:rgba(138, 82, 178, 0.5);
+}
+
+.header-episode-04 {
+  display:inline-block;
+  margin-right: 0%;
+  background-color:rgba(138, 82, 178, 0.7);
+}
+
+.paragraph-01, .paragraph-02, .paragraph-03, .paragraph-04 {
   height: 50px;
   width: 400px;
 }
-#paragraph-1 {
-  background-color: rgba(82, 178, 178, 1);
-  position: relative;
-  padding-right: 305px;
 
+.paragraph-01 {
+  background-color: rgba(82, 178, 178, 1);
+  padding-right: 305px;
 }
 
-#paragraph-2 {
+.paragraph-02 {
   background-color: rgba(82, 178, 178, .4);
   transform: rotate(90deg);
   position: relative;
   left: 175px;
-  top: 130px;
+  top: 140px;
+  width: 455px;
 }
 
-#paragraph-3 {
+.paragraph-03 {
   background-color: rgba(138, 82, 178, 0.6);
   position: relative;
-  left: 350px;
-  top: 280px;
+  left: 400px;
+  top: 325px;
+  width: 600px;
 }
 
-#paragraph-4 {
+.paragraph-04 {
   background-color: rgba(138, 82, 178, 0.8);
   transform: rotate(90deg);
   position: relative;
