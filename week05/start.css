@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+main {
+  border-style: dotted;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;  
+}
+
+.bigdiv {
+  display: flex;
+  color: white;
+  justify-content: end;
+  column-gap: 10px;
+}
+
+.blankborder1, .blankborder2, .blankborder3 {
+  color: pink;
+  border: 1px solid;
+  border-color: white;
+  flex: 1;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.blankborder2 {
+  display: flex;
+  align-items: center;
+}
+
+.blankborder3 {
+  display: flex;
+  align-items: end;
+}
+
+p {
+  margin: 0;
+  font-size: xx-large;
+}
+
+.topmiddle {
+  display: flex;
+  justify-content: center;
+}
+
+.topright {
+  display: flex;
+  justify-content: end;
+}
+
+.middlemiddle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.middleright {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+.bottommiddle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.bottomright {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+
+
+
+
+
+
