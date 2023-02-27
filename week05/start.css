@@ -19,7 +19,7 @@ main {
 }
 
 .blankborder1, .blankborder2, .blankborder3 {
-  color: pink;
+  color: white;
   border: 1px solid;
   border-color: white;
   flex: 1;
@@ -40,6 +40,14 @@ main {
 p {
   margin: 0;
   font-size: xx-large;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: black;
 }
 
 .topmiddle {

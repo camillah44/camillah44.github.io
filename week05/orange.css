@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(217, 109, 0);
+}
+
+.next {
+  position: absolute;
+	bottom: 0px;
+  margin-bottom: 3%;
+  padding-right: 3%;
+	width: 100%;
+  text-align: end;
+}
+
+.link {
+  color: rgb(255, 250, 230);
+  margin-bottom: 3%;
+  margin-right: 3%;
+  font-size: x-large;
+}
+
+.link:hover {
+  color: rgb(217, 109, 0);
+}
+

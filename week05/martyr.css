@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(131, 0, 0);
+}
+
+p {
+  color: rgb(255, 250, 230);
+  margin: 0;
+}
+
+.paragraph-01 {
+  margin-top: 3%;
+  margin-left: 80%;
+}
+
+.paragraph-02-container {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-02 {
+  font-size: large;
+}
+
+.paragraph-03 {
+  margin-left: 50%;
+  margin-top: -4px;
+}
+
+.paragraph-04 {
+  display: inline-block;
+  transform: rotate(270deg);
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.paragraph-05-container {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-05 {
+  font-size: larger;
+}
+
+.paragraph-06, .paragraph-07 {
+  font-size: small;
+}
+
+.paragraph-06 {
+  margin-top: 10%;
+}
+
+.paragraph-08-container, .paragraph-09-container, .paragraph-10-container, .paragraph-11-container {
+  display: flex;
+  justify-content: end;
+  line-height: 1.3;
+}
+
+.paragraph-10 {
+  margin-top: 3%;
+  font-style: italic;
+  margin-bottom: 10%;
+}
+
+.paragraph-12-container {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-12 {
+  margin-top: 20%;
+  font-size: large;
+}
+
+.paragraph-13 {
+  margin-left: 47%;
+  margin-top: -4px;
+  margin-bottom: 3%;
+}
+
+.link-container {
+  display: flex;
+  justify-content: end;
+}
+
+.link {
+  color: rgb(255, 250, 230);
+  margin-bottom: 3%;
+  margin-right: 3%;
+  font-size: x-large;
+}
+
+.link:hover {
+  color: rgb(131, 0, 0);
+}
+
+
+
