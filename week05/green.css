@@ -2,6 +2,11 @@ body {
   background-color: rgb(1, 122, 9);
 }
 
+.error {
+  color: red;
+  font-size: larger;
+}
+
 .next {
   position: absolute;
 	bottom: 0px;
