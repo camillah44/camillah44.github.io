@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+.main-wrapper {
+  display: grid;
+  height: 100vh;
+  background-color: brown;
+}
+
+.words {
+  position: relative;
+  background-color: brown;
+  margin: 10%;
+}
+
+.outline {
+  background-color: rgb(179, 179, 179);
+  font-size: 1.3em;
+  padding: 0.3em;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  
+}
+
+.middle {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 8fr;
+  background: purple;
+  height: 92%;
+}
+
+.sidebar {
+  background-color: gray;
+  border-left: 0.7em solid rgb(179, 179, 179);
+  color: white;
+  padding: 0.3em;
+}
+
+.content {
+  background-color: rgb(255, 221, 0);
+  border-right: 0.7em solid rgb(179, 179, 179);
+  object-fit: fill;
+}
+
+.oops {
+  display: flex;
+  justify-content: center;
+  padding: .3em 0;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 1em;
+}
+
+.baby-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baby {
+  max-width: 70%;
+}
+
+.foot {
+
+}

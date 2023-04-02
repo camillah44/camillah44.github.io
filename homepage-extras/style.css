@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url(ethnocentric\rg.otf);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(8, 0, 13);
+  font-family: 'Ethnocentric';
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 300px;
+}
+
+.intro, .outro {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: white;
+}
+
+.middle {
+  height: 300vh;
+
+}
+
+.parallax-group {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.parallax-layer {
+  position: absolute;
+}
+
+.layer-1 {
+  display: flex;
+  align-items: center;
+  inset: 0 0 80%;
+  transform: translateZ(-200px) scale();
+  object-fit: contain;
+  /* border: 2px solid white; */
+}
+  
+.sun {
+  height: 100%;
+  width: 100%;
+}
+
+.layer-2 {
+  inset: 33% 0 33%;
+  /* note that there is a formula for scale in 3D 
+  but I don't remember it so I just estimated */
+  transform: translateZ(-300px) scale(2);
+  z-index: 2;
+  color: white;
+  margin-top: -2%;
+  margin-bottom: 16%;
+  /* border: 2px solid pink; */
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.website-links {
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+  height: 20%;
+  text-decoration: none;
+}
+
+/* 
+  inset properties: 
+  top, right, bottom, left 
+  top & bottom, left & right
+  top, left & right, bottom
+  auto acts as if no value was set
+  0 covers all
+*/
+
+#harvey1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 50%;
+  margin-right: 2%;
+  transform: rotate3d(1, -1, 0, -60deg);
+  transition-duration: 1s;
+}
+
+#bush2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#berger3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 50%;
+  margin-left: 2%;
+  transform: rotate3d(1, 1, 0, -60deg);
+  transition-duration: 1s;
+}
+
+#sharif4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animation5 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 50%;
+  margin-right: 2%;
+  transform: rotate3d(1, -1, 0, -60deg);
+  transition-duration: 1s;
+}
+
+#harvey1:hover, #animation5:hover {
+  transform: rotate3d(1, -1, 0, 0deg);
+}
+
+#berger3:hover {
+  transform: rotate3d(1, 1, 0, 0deg);
+}
+
+.layer-3 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  inset: 80% 0 0;
+  /* border: 2px solid blue; */
+  transform: translateZ(-500px) scale();
+}
+
+
+
