@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: burlywood;
+}
+
+button {
+  padding: 5em 1em;
+  background-color: cadetblue;
+  border-radius: 100%;
+  border: none;
+}
