@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#pics-container, #words-container {
+  height: 70vh;
+  width: 30vw;
+  border: 2px black double;
+  border-width: 0.5em;
+}
+
+#pics-container {
+  position: relative;
+  margin-left: 0.5em;
+  width: 30vw;
+}
+
+#words-container {
+  margin-left: 0.5em;
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#image1 {
+  background-image: url(images/2023-04-12\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 10em;
+  width: 15em;
+  top: -5em;
+  left: -2em;
+}
+
+#image2 {
+  background-image: url(images/2023-04-12\ \(2\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  height: 12em;
+  width: 5em;
+  top: 0;
+  right: 0;
+}
+
+#image3 {
+  background-image: url(images/2023-04-12\ \(3\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 12em;
+  width: 5em;
+  top: 8em;
+}
+
+#image4 {
+  background-image: url(images/2023-04-12\ \(4\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 10em;
+  width: 15em;
+  top: 3em;
+  left: 20%;
+}
+
+#image5 {
+  background-image: url(images/2023-04-12\ \(5\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  height: 12em;
+  width: 5em;
+  top: 13em;
+  left: 50%;
+}
+
+#image6 {
+  background-image: url(images/2023-04-12\ \(6\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 8em;
+  width: 5em;
+  bottom: 0;
+  left: 3em;
+}
+
+#image7 {
+  background-image: url(images/2023-04-12.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 8em;
+  width: 10em;
+  bottom: -3em;
+  right: -2em;
+}
