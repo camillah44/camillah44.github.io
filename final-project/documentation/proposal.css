@@ -1,0 +1,74 @@
+/* Licensing info for the fonts I used can be found on the info.txt page in the countryside-font folder */ 
+@font-face {
+  font-family: 'Countryside';
+  src: url(countryside-font/Countryside-YdKj.ttf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Countryside Italic';
+  src: url(countryside-font/CountrysideTwo-r9WO.ttf) format('truetype');
+  font-style: italic;
+}
+
+/* Changing my defaults */
+* {
+  margin: 0;
+  font-family: 'Countryside';
+  font-size: larger;
+  color: aliceblue;
+}
+
+.wrapper {
+  /* stole this color from this palette: https://www.schemecolor.com/shades-of-sky-blue.php */
+  background-color: #7bc1fa;
+  height: 250vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  border: 0.2em double aliceblue;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+h1, h2 {
+  font-family: 'Countryside Italic';
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  /* I used em here because I want the size of h2 to be dependent on the size of h1 */
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 0.4em;
+  padding: 0.2em;
+}
+
+.img-container {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+
