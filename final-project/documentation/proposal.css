@@ -19,16 +19,15 @@
   color: aliceblue;
 }
 
-.wrapper {
+#wrapper {
   /* stole this color from this palette: https://www.schemecolor.com/shades-of-sky-blue.php */
   background-color: #7bc1fa;
-  height: 250vh;
+  height: 100vh;
   width: 100vw;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -40,6 +39,11 @@ article {
   justify-content: center;
   align-items: center;
   margin: 2%;
+}
+
+/* I wanted the text to align at the start instead of the center so that's why this is here */
+section {
+  width: 100%;
 }
 
 h1, h2 {
@@ -61,6 +65,20 @@ p {
   padding: 0.2em;
 }
 
+/* 
+here's the tutorial I used to style ul and li:
+https://www.freecodecamp.org/news/how-to-style-lists-with-css/ 
+*/
+ul {
+  font-size: 0.7em;
+}
+
+/* sizing of li is dependent on ul so better be careful here */
+li {
+  font-size: 0.8em;
+  list-style: disc;
+}
+
 .img-container {
   max-width: 50%;
   display: flex;
@@ -70,5 +88,6 @@ p {
 .img-container img {
   width: 100%;
 }
+
 
 
