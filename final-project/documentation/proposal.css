@@ -11,10 +11,15 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Kalam';
+  src: url(kalam-font/Kalam-Regular.ttf);
+}
+
 /* Changing my defaults */
 * {
   margin: 0;
-  font-family: 'Countryside';
+  font-family: 'Kalam';
   font-size: larger;
   color: aliceblue;
 }
@@ -46,8 +51,14 @@ section {
   width: 100%;
 }
 
+/* 
+I noticed when I checked my website on my phone on Day 1, the Countryside Italic font 
+wasn't loading, but Countryside was working fine, so I'm adding it as a backup in 
+case something goes wrong.
+*/
+
 h1, h2 {
-  font-family: 'Countryside Italic';
+  font-family: 'Countryside Italic', 'Countryside';
   text-align: center;
 }
 
@@ -61,7 +72,7 @@ h2 {
 }
 
 p {
-  font-size: 0.4em;
+  font-size: 0.6em;
   padding: 0.2em;
 }
 
@@ -89,5 +100,8 @@ li {
   width: 100%;
 }
 
+#goals-list {
+  font-size: 0.8em;
+}
 
 
