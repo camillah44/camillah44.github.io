@@ -34,7 +34,7 @@ playBTN1.addEventListener("click", (e) => {
   else {
     e.target.innerText = "Stop";
     Tone.Transport.start();
-    synthPhrase1.start();
+    synthPhrase1.pause();
     playing = true;
   }
 });

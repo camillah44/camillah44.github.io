@@ -20,6 +20,8 @@
           <li><a href="#D1">Day One</a></li>
           <li><a href="#D2">Day Two</a></li>
           <li><a href="#D3">Day Three</a></li>
+          <li><a href="#D4">Day Four</a></li>
+          <li><a href="#D5">Day Five</a></li>
         </ul>
       </section>
     </article>
@@ -109,6 +111,75 @@
         <p>Before I get into anything new, the typeface I chose for the paragraphs was really hard for me to read, so I chose a new one. (I can't decide if I like it, might change it again, but at least it's legible).</p>
         <p>Today, instead of solving the problems I encountered last time, I'm ignoring them (story of my life).</p>
         <p>I think it makes more sense right now to focus on what I actually can do, so I'm going to input the sheet music for Married Life into a website, using multiple sequencers. Wish me luck.</p>
+        <p>...</p>
+        <p>I ran into some difficulty.</p>
+        <p>...</p>
+        <p>I know I said that I would focus on putting the music into Tone.js, but I really wanted to fix the sequencer so that it would not continuously play.</p>
+        <p>I tried using this <a href="https://medium.com/geekculture/creating-a-step-sequencer-with-tone-js-32ea3002aaf5">tutorial</a> to create a play/pause button, but I just could not get it to work.</p>
+        <p>You can find the gist for my non-functional code down below or view it <a href="https://gist.github.com/camillah44/f2286c8db91b0ca6fb7d3d5734875146">here</a>.</p>
+        <p>
+          <script src="https://gist.github.com/camillah44/f2286c8db91b0ca6fb7d3d5734875146.js"></script>
+        </p>
+        <p>In the comments of the code I outline what I tried to do to fix it, though ultimately I wasn't successful.</p>
+        <p>At this point I'm tired and confused. I want to try adding in the song, but I don't want it to live in a broken home, so I'll come back tomorrow.</p>
+      </section>
+    </article>
+    <article>
+      <h2 id="D4">Day Four</h2>
+      <section>
+        <p>Today was my first time getting user feedback in class.</p>
+        <p>There wasn't a whole lot for others to test, but I did get some suggestions on how to make this work.</p>
+        <p>
+          <ul>
+            <li>Try looking up conditional if/else statements.</li>
+            <li>Try using different mouse elements to play or pause.</li>
+            <li>
+              Try having the visuals change according to the chord playing.
+              (This one was not for problem-solving, but to make things more interesting.)
+            </li>
+            <li>
+              I like the background color. 
+              (Thanks.)
+            </li>
+          </ul>
+        </p>
+        <p>After deliberating on the feedback I got from my classmates, in true me fashion, I ignored them all.</p>
+        <p>Instead, I looked back at this <a href="https://peteronuz.github.io/week11/week11.html">website</a> Peter made for his McLuhan response.</p>
+        <p>When you click on the red text, it changes. This is exactly what I wanted for my website, but with audio instead of words.</p>
+        <p>After playing with the <a href="http://jsfiddle.net/7N5K5/2/">code</a> Peter used, I understood that I wanted to "change the div" on every click.</p>
+        <p>However, none of the searches I tried would get me close to changing the content of a div with anything but text, so I had to keep digging.</p>
+        <p class="img-container">
+          <img src="images/append-ex1.png">
+          <img src="images/append-ex2.png">
+        </p>
+        <p>When I found the appendChild() Method, this was even closer. In fact, this is exactly what I want to do visually when my song plays.</p>
+        <p>The only issue is that the content that appends is always the same - a div that says "Water".</p>
+        <p>Nonetheless, it brings me much closer to my goal, visually and auditorily, because it helps me understand the structure of JavaScript better.</p>
+        <p>...</p>
+        <p>I thought I was a lot closer to finding out how to make my idea work at this point, but I was wrong.</p>
+        <p>I tried many Google searches like "making dynamic divs" or "how to change the content of a variable every time you click" or blah blah blah.</p>
+        <p>None of them worked, so I'm giving up for the day. Hopefully things will work out tomorrow.</p>
+      </section>
+    </article>
+    <article>
+      <h2 id="D5">Day Five</h2>
+      <section>
+        <p>...It is tomorrow...</p>
+        <p>sigh</p>
+        <p>Back to the grind.</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>Huzzah!</p>
+        <p>The grind has uncovered thine coveted answers.</p>
+        <p>I was FaceTiming my sister when I got bored and I had an idea.</p>
+        <p>I remember Lana telling me during class to look up if/else statements, and at this point, it was my last hope, so I typed into the search bar "how to use if else statements to play a different function every click" and under the fourth link I found this <a href="https://www.sololearn.com/Discuss/1618462/how-do-you-execute-a-different-function-each-time-the-same-button-is-clicked-in-javascript">beauty</a>:</p>
+        <p class="img-container">
+          <img src="images/huzzah.png">
+        </p>
+        <p>Clicking on that link brought me to the exact code I needed in order to change the audio every time you click.</p>
+        <p>I had to circle around the room victoriously a couple of time after finding this code. (It's seriously so perfect. I can even copy the whole thing directly and experiment with it right there. My angel TT)</p>
+        <p>You can find the original code <a href="https://www.sololearn.com/compiler-playground/WWXqYfP2FVEK/?ref=app">here</a>.</p>
       </section>
     </article>
   </div>

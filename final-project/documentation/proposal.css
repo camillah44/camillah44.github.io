@@ -36,6 +36,10 @@
   align-items: center;
 }
 
+.center {
+  justify-content: center;
+}
+
 article {
   border: 0.2em double aliceblue;
   width: 70%;
@@ -103,5 +107,30 @@ li {
 #goals-list {
   font-size: 0.8em;
 }
+
+#story-title {
+  padding: 0.2em;
+  padding-top: 0.4em;
+}
+
+#story-end {
+  padding-bottom: 0.4em;
+}
+
+#instructions {
+  font-size: 0.8em;
+}
+
+#song-start {
+  font-size: 1rem;
+  padding-top: 0.6em;
+  text-align: center;
+}
+
+.poem-class {
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+
 
 
