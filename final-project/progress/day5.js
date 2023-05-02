@@ -214,7 +214,8 @@ var poem14 = function() {
 }
 
 //making each click different
-//base code for this credited in my documentation
+//base code for this function found here:
+//https://www.sololearn.com/compiler-playground/WWXqYfP2FVEK/?ref=app
 function clickUpdates() {
     var count = 0;
     var next = function() {
