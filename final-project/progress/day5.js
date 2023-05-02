@@ -11,6 +11,7 @@ function init() {
     
 }
 
+//functions that play each individual mp3
 function playAudio1 () {
   audio1.play();
   audio1.volume = 0.3;
@@ -86,6 +87,7 @@ function playAudio15 () {
   audio15.volume = 0.3;
 }
 
+// rewrites the html to erase the instructions and start the poem
 var startSong = function() {
   document.getElementById("changer").innerHTML = 
   '<p id="song-start"> Do you ever just...? <p>';
@@ -94,6 +96,8 @@ var startSong = function() {
   return startSong;
 }
 
+//idk why I named the variables this way...
+//adding each new line of the poem here
 var startPoem = function() {
   var para2 = document.createElement("p");
   var text2 = document.createTextNode("Want to stop rushing the world");
@@ -124,6 +128,7 @@ var poem4 = function() {
   para5.appendChild(text5);
   document.getElementById("song-start").appendChild(para5);
   para5.classList.add("poem-class");
+  para5.classList.add("stanza-space");
 }
 
 var poem5 = function() {
@@ -156,6 +161,7 @@ var poem8 = function() {
   para9.appendChild(text9);
   document.getElementById("song-start").appendChild(para9);
   para9.classList.add("poem-class");
+  para9.classList.add("stanza-space");
 }
 
 var poem9 = function() {
@@ -188,6 +194,7 @@ var poem12 = function() {
   para13.appendChild(text13);
   document.getElementById("song-start").appendChild(para13);
   para13.classList.add("poem-class");
+  para13.classList.add("stanza-space");
 }
 
 var poem13 = function() {
@@ -206,7 +213,8 @@ var poem14 = function() {
   para15.classList.add("poem-class");
 }
 
-
+//making each click different
+//base code for this credited in my documentation
 function clickUpdates() {
     var count = 0;
     var next = function() {

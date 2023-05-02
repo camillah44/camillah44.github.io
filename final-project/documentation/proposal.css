@@ -108,6 +108,7 @@ li {
   font-size: 0.8em;
 }
 
+/* styling for the instructions start page */
 #story-title {
   padding: 0.2em;
   padding-top: 0.4em;
@@ -121,16 +122,47 @@ li {
   font-size: 0.8em;
 }
 
+/* styling for the poem */
 #song-start {
   font-size: 1rem;
   padding-top: 0.6em;
   text-align: center;
+  animation: fadeIn 5s;
 }
 
 .poem-class {
   font-size: 1rem;
   padding-bottom: 0;
+  animation: fadeIn 5s;
 }
 
+.stanza-space {
+  padding-top: 0.6em;
+}
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
+/* making the animations work in other browsers */
+/* code for this animation credited in my documentation */
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
